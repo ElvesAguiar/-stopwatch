@@ -1,9 +1,12 @@
+  import React,{Component} from "react";
 
-
-function App() {
-  return (
-   <h1></h1>
-  );
-}
+class App extends Component{
+  render(){
+    return(
+    <div>
+      <img src={require('./assets/cronometro.png')} />  
+    </div>);
+  };
+};
 
 export default App;
